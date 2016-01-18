@@ -19,8 +19,16 @@ html {
 
 }
 
+body {
+    margin: 0;
+}
+
 .bg {
    background-image:  url("http://cdn.linuxaria.com/wp-content/uploads/2011/04/a_day_in_the_life_by_barid42-d3dzbcc1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
         
 i{
