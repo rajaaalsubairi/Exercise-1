@@ -21,22 +21,24 @@ html {
 
 
 body {
-    background-color: darkgray;
+   background-image:  url("http://cdn.linuxaria.com/wp-content/uploads/2011/04/a_day_in_the_life_by_barid42-d3dzbcc1.jpg");
+
+-webkit-filter: blur(20px);
 }
 
+        
 i{
     font-size: 6em;
     position: absolute;
-    top: 0;
+    top: .5em;
     left: 0;
-    width: 45%;
-    margin-right: 27.5%;
-    margin-left: 27.5%;
+    margin-right: 35%;
+    margin-left: 35%;
 }
 
 
 .icon-rain {
-    color: darkblue;
+    color: white;
     animation: rain 5s linear infinite;
 }
 
@@ -65,7 +67,7 @@ i{
 }
 
 .icon-cloud {
-    color: gray;
+    color: white;
     animation: cloud 5s linear infinite;
 }
 
@@ -104,7 +106,7 @@ i{
 }
 
 .icon-sun {
-    color: yellow;
+    color: white;
     animation: sun 5s linear infinite;
 }
 
@@ -138,5 +140,15 @@ i{
     i {
         font-size: 15em;
     }
+    
+    .icons {
+    background-color: rgba(0,0,0,0.7);
+    height: 15em;
+    width: 45%;
+    margin-right: 27.5%;
+    margin-left:27.5%;
+    margin-top: 12%;
+    overflow: scroll;
+}
     
 }
