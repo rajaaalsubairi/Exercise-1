@@ -22,8 +22,6 @@ html {
 
 body {
    background-image:  url("http://cdn.linuxaria.com/wp-content/uploads/2011/04/a_day_in_the_life_by_barid42-d3dzbcc1.jpg");
-
--webkit-filter: blur(20px);
 }
 
         
@@ -140,15 +138,5 @@ i{
     i {
         font-size: 15em;
     }
-    
-    .icons {
-    background-color: rgba(0,0,0,0.7);
-    height: 15em;
-    width: 45%;
-    margin-right: 27.5%;
-    margin-left:27.5%;
-    margin-top: 12%;
-    overflow: scroll;
-}
-    
+  
 }
