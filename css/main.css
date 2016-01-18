@@ -37,7 +37,8 @@ i{
 
 .icon-rain {
     color: white;
-    animation: rain 5s linear infinite;
+    animation: rain 5s linear infinite
+    -webkit-animation: rain 5s linear infinite;
 }
 
 @keyframes rain {
@@ -64,9 +65,34 @@ i{
     
 }
 
+@-webkit-keyframes rain {
+       
+    0% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+    
+    25% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+    
+    50% {
+        -webkit-transform: translateX(500px);
+        opacity: 0;
+    }
+    
+    100% {
+        -webkit-transform: translateX(500px);
+        opacity: 0;
+    }
+    
+}
+
 .icon-cloud {
     color: white;
     animation: cloud 5s linear infinite;
+    -webkit-animation: cloud 5s linear infinite;
 }
 
 @keyframes cloud {
@@ -103,12 +129,72 @@ i{
     
 }
 
+@-webkit-keyframes cloud {
+       
+    0% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+    
+    25% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+    
+    45% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+    
+    50% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+    
+    75% {
+        -webkit-transform: translateX(500px);
+        opacity: 0;
+    }
+    
+    100% {
+        -webkit-transform: translateX(500px);
+        opacity: 0;
+    }
+    
+}
+
 .icon-sun {
     color: white;
     animation: sun 5s linear infinite;
+    -webkit-animation: sun 5s linear infinite;
 }
 
 @keyframes sun {
+       
+    0% {
+        opacity: 0;
+    }
+    
+    25% {
+        opacity: 0;
+    }
+
+    
+    50% {
+        opacity: 0;
+    }
+    
+    85% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@-webkit-keyframes sun {
        
     0% {
         opacity: 0;
