@@ -37,7 +37,7 @@ i{
 
 .icon-rain {
     color: white;
-    animation: rain 5s linear infinite
+    animation: rain 5s linear infinite;
     -webkit-animation: rain 5s linear infinite;
 }
 
